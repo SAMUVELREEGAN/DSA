@@ -10,7 +10,8 @@ while (left<right):
     heap = arr[left] + arr[right]
 
     if heap == target:
-        print( left , right)
+        print( "Index : " , left , right)
+        print ("Value : " ,arr[left] ,"+" ,arr[right] , "="  , arr[left] + arr[right])
         break
     elif heap < target:
         left = left +1
